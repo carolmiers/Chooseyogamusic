@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Choose yoga music</string>
+    <string name="selectbutton">Press for </string>
+    <string name="category_kriyas">Kriyas</string>
+    <string name="category_pranayama">Pranayama</string>
+    <string name="category_meditation">Meditation</string>
+    <string name="category_relaxation">Relaxation</string>
+    <string name="category_addto">Add</string>
+
+    <string name="screen_kriya_label"><b>Kriya Music Selection Playlist</b></string>
+    <string name ="text_kriya_screen">On this screen, the user can choose music for Kundalini yoga kriyas. Select from the playlist below"</string>
+
+    <string name="screen_home_label"><b>Music Categories; Choose or Get Music</b></string>
+    <string name="text_home_screen">Home Page. On this screen the user can choose which other screen to go to for one of four categories of yoga music.
+If they prefer to add to rather than to listen to the collection, they can press the Add button. The button Add takes the user to a specific yoga website. This site can be changed in the code. All the activities are explicit intents."
+    </string>
+
+    <string name="screen_meditation_label"><b>Meditation Music Selection</b></string>
+<string name ="text_meditation_screen">On this screen, the user can choose music to play while doing kundalini yoga meditations."</string>
+
+    <string name="screen_relaxation_label"><b>Relaxation Music Selection</b></string>
+<string name ="text_relaxation_screen">On this screen, the user can choose music to play while meditating."</string>
+
+    <string name="screen_pranayama_label"><b>Pranayama Music Selection</b></string>
+<string name ="text_pranayama_screen">On this screen, the user can choose music to play while doing pranayama."</string>
+
+    <string name="screen_add_label"><b>Choose to add more Music</b></string>
+    <string name ="text_add_screen">On this screen, the user can buy and download music to add to the collection."</string>
+
+
+
+</resources>
+

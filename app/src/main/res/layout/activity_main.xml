@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.chooseyogamusic.MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/screen_home_label"
+        android:textAllCaps="true"
+        style="@style/Labelhome"/>
+
+    <TextView
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_home_screen"
+        style="@style/Descriptionhome"/>
+
+    <TextView
+        android:id="@+id/Kriyas"
+        style="@style/Header_Button"
+        android:text="@string/category_kriyas"
+
+         />
+    <TextView
+        android:id="@+id/Pranayama"
+        style="@style/Header_Button"
+        android:text="Pranayama"
+        />
+    <TextView
+        android:id="@+id/Meditation"
+        style="@style/Header_Button"
+        android:text="Meditation"
+        />
+    <TextView
+        android:id="@+id/Relaxation"
+        style="@style/Header_Button"
+        android:text="Relaxation"
+        />
+    <TextView
+        android:id="@+id/Add"
+        style="@style/Header_Button"
+        android:text="Add++"
+        />
+
+
+</LinearLayout>

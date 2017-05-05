@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.chooseyogamusic.KriyaActivity">
+
+    <TextView
+        style="@style/Label"
+        android:id="@+id/TextforKriyaspage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/screen_kriya_label"
+        android:layout_alignParentTop="true"
+
+        />
+    <LinearLayout
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TextforKriyaspage">
+
+        <TextView
+            style="@style/Description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/text_kriya_screen"
+            android:layout_below="@id/TextforKriyaspage"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="250dp"
+            android:src="@drawable/yogasittingguru"
+            android:layout_weight="1"
+            android:scaleType="center"
+            />
+
+    </LinearLayout>
+         <ScrollView
+             android:layout_below="@id/image"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="72dp"
+               >
+         <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical">
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/yogaalbum1"
+             />
+         <ImageView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:src="@drawable/yogalbum2"
+                 />
+             </LinearLayout>
+
+         </ScrollView>
+</RelativeLayout>
